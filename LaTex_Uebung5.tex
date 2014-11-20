@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[ngerman]{babel} 
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\begin{document}
+
+\title{CS102 \LaTeX  \, Übung}
+\author{Andrea Guarneri}
+\date{\today}
+\maketitle
+
+\section{Erster Abschnitt}
+Hier könnte Ihre Werbung stehen.
+
+\section{Tabelle}
+Hier meine erste Tabelle in \LaTeX : \\
+\begin{table}[h]
+\centering
+\begin{tabular}{c|c|c|c}
+& Punkte erhalten & Punkte möglich & \% \\
+ \hline Aufgabe 1 & 2 & 4 & 0.5 \\
+ Aufgabe 2 & 3 & 3 & 1 \\
+ Aufgabe 3 & 3 & 3 & 1 \\
+ \end{tabular}
+ 
+\caption{Diese Tabelle könnte ebenfalls Ihre Werbung enthalten.}
+\end{table}
+
+\section{Formeln}
+\subsection{Pythagoras}
+Der Satz des Pythagoras errechnet sich wie folgt: $a^2 + b^2 = c^2 $. Daraus können wir die Länge der Hypothenuse wie folgt berechnen: $c = \sqrt{a^2+b^2}$
+
+\subsection{Summen}
+Wir können auch die Formel für eine Summe angeben:
+\begin{equation}
+s = \sum_{i=1}^n i\ = \frac{n*(n+1)}{2}
+\end{equation}
+\end{document} 
